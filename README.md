@@ -24,6 +24,8 @@ Jacoco Test coverage report:
 
 For the monopoly part i chose Node.js and Javascript. I focused on creating Object types that were independent and injectable to make testing easier. In javascript it is pretty easy to mock objects since you can overwrite most members (functions and properties) of an object, so i focused on mocking for my tests. I covered about 70-80% of my code, leaving out some functions with only 1 or 2 lines of code.
 
+Code for my the monopoly implementation can be found in the project 03 folder
+
 The test results for my monopoly implementation:
 
 ![](https://github.com/kristian94/test-midterm-assignment/blob/master/project-03/images/Monopoly%20test%20results.PNG)
