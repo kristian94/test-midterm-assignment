@@ -26,3 +26,4 @@ For the monopoly part i chose Node.js and Javascript. I focused on creating Obje
 
 The test results for my monopoly implementation:
 
+![](https://github.com/kristian94/test-midterm-assignment/blob/master/project-03/images/Monopoly%20test%20results.PNG)
