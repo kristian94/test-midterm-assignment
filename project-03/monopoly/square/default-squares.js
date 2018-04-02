@@ -1,0 +1,48 @@
+/**
+ * Created by Kristian Nielsen on 02-04-2018.
+ */
+const defaults = require('./default-options');
+const Square = require('./square');
+
+module.exports = () => [
+    new Square(defaults.getStartSquareOptions()),
+    new Square(defaults.getBuildablePropertyOptions('Old Kent Road', 60, 1)),
+    new Square(defaults.getCommunityChestOptions()),
+    new Square(defaults.getBuildablePropertyOptions('Whitechapel Road', 60, 1)),
+    new Square(defaults.getTaxOptions('Income Tax', -200)),
+    new Square(defaults.getTrainOptions('Kings Cross Station')),
+    new Square(defaults.getBuildablePropertyOptions('The Angel, Islington', 100, 2)),
+    new Square(defaults.getChanceCardOptions()),
+    new Square(defaults.getBuildablePropertyOptions('Euston Road', 100, 2)),
+    new Square(defaults.getBuildablePropertyOptions('Pentonville Road', 120, 2)),
+    new Square(defaults.getVisitJailOptions()),
+    new Square(defaults.getBuildablePropertyOptions('Pall Mall', 140, 3)),
+    new Square(defaults.getUtilityOptions('Electric Company')),
+    new Square(defaults.getBuildablePropertyOptions('Whitehall', 140, 3)),
+    new Square(defaults.getBuildablePropertyOptions('Northumrl\'d Avenue', 140, 3)),
+    new Square(defaults.getTrainOptions('Marylebone Station')),
+    new Square(defaults.getBuildablePropertyOptions('Bow Street', 180, 4)),
+    new Square(defaults.getCommunityChestOptions()),
+    new Square(defaults.getBuildablePropertyOptions('Marlborough Street', 180, 4)),
+    new Square(defaults.getBuildablePropertyOptions('Vine Street', 200, 4)),
+    new Square(defaults.getFreeOptions('Free Parking')),
+    new Square(defaults.getBuildablePropertyOptions('Strand', 220, 5)),
+    new Square(defaults.getChanceCardOptions()),
+    new Square(defaults.getBuildablePropertyOptions('Fleet Street', 220, 5)),
+    new Square(defaults.getBuildablePropertyOptions('Trafalgar Square', 240, 5)),
+    new Square(defaults.getTrainOptions('Fenchurch Street Station')),
+    new Square(defaults.getBuildablePropertyOptions('Leicester Square', 260, 6)),
+    new Square(defaults.getUtilityOptions('Water Works')),
+    new Square(defaults.getBuildablePropertyOptions('Coventry Street', 260, 6)),
+    new Square(defaults.getBuildablePropertyOptions('Piccadilly', 280, 6)),
+    new Square(defaults.getJailOptions()),
+    new Square(defaults.getBuildablePropertyOptions('Regent Street', 300, 7)),
+    new Square(defaults.getCommunityChestOptions()),
+    new Square(defaults.getBuildablePropertyOptions('Oxford Street', 300, 7)),
+    new Square(defaults.getBuildablePropertyOptions('Bond Street', 320, 7)),
+    new Square(defaults.getTrainOptions('Liverpool Street Station')),
+    new Square(defaults.getChanceCardOptions()),
+    new Square(defaults.getBuildablePropertyOptions('Park Lane', 350, 8)),
+    new Square(defaults.getTaxOptions('Super Tax', -100)),
+    new Square(defaults.getBuildablePropertyOptions('Mayfair', 400, 8)),
+];
