@@ -1,0 +1,11 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+jokeFetcher,jokefetching,Tambal,21,3,0,0,4,1,1,1,1,1
+jokeFetcher,jokefetching,ChuckNorris,21,3,0,0,4,1,1,1,1,1
+jokeFetcher,jokefetching,EduJoke,33,3,0,0,6,1,1,1,1,1
+jokeFetcher,jokefetching,FetcherFactory,13,88,1,6,4,15,2,7,1,3
+jokeFetcher,jokefetching,Moma,21,3,0,0,4,1,1,1,1,1
+jokeFetcher,com.testex,DateFormatter,13,49,0,2,4,10,2,5,2,4
+jokeFetcher,com.testex,JokeException,0,4,0,0,0,2,0,1,0,1
+jokeFetcher,com.testex,JokeFetcher,24,75,0,6,6,17,2,6,2,3
+jokeFetcher,com.testex,Jokes,3,21,0,0,1,7,1,4,1,4
+jokeFetcher,com.testex,Joke,23,9,0,0,3,4,3,1,3,1

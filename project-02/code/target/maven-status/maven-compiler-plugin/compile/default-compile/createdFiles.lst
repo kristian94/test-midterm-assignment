@@ -1,0 +1,13 @@
+jokefetching\Moma.class
+com\testex\Joke.class
+com\testex\JokeFetcher.class
+jokefetching\Tambal.class
+com\testex\DateFormatter.class
+com\testex\IDateFormatter.class
+com\testex\Jokes.class
+jokefetching\FetcherFactory.class
+jokefetching\EduJoke.class
+com\testex\JokeException.class
+jokefetching\IFetcherFactory.class
+jokefetching\ChuckNorris.class
+jokefetching\IJokeFetcher.class
